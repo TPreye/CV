@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #8fbc8f;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-left {
+    font-size: 35px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+#pp {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.header-right {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.profile {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.profile h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    border: 1px solid #dcdcdc;
+    background-color: #dcdcdc;
+    padding: 5px;
+    color: black;
+    font-size: 25px;
+}
+
+.profile p {
+    font-family: Sanchez;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.edu b {
+    font-size: 25px;
+}
+
+.right-section {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.right-section h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Montserrat;
+        border: 1px solid #dcdcdc;
+        background-color: #dcdcdc;
+        padding: 5px;
+        color: black;
+        font-size: 25px;
+}
+
+.right-section p {
+    font-family: Sanchez;
+    font-size: 20px;
+}
+
+.right-section ul {
+    font-family: Sanchez;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .header-left {
+        font-size: 13px;
+        width: 50vw;
+    }
+
+    #pp {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .header-right {
+        font-size: 15px;
+        width: 40vw;
+        float: left;
+        margin-top: 5px;
+    }
+
+    .profile h3, .right-section h3 {
+        font-size: 17px;
+    }
+
+    .edu b {
+        font-size: 10px;
+    }
+
+    .profile p, .right-section p, .right-section ul {
+        font-size: 15px;
+    }
+}
